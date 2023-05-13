@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10vh;
+  width: 30%;
+  height: 100vh;
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+}
